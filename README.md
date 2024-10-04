@@ -59,7 +59,7 @@ Content-Type: application/json
 ## Customization
 
 - You can modify the default models for embeddings and the RAG query handler.
-- Supported document formats include `.pdf`, `.docx`, `.md`, and `.txt`.
+- Supported document formats include `.pdf`, `.md`, and `.txt`.
 
 ## License
 This project is licensed under the MIT License.
