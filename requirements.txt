@@ -1,8 +1,10 @@
 flask
 watchdog
 langchain
+langchain-community
 faiss-cpu  # For CPU usage. If using GPU, change to 'faiss-gpu'
 transformers
 pdfplumber
 python-docx
 markdown
+vllm
