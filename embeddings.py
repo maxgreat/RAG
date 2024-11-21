@@ -16,10 +16,10 @@ class EmbeddingHandler:
         :param text_chunks: A list of text chunks.
         :return: A list of embeddings, each as a list of floats.
         """
-        outputs = self.model.generate(text_chunks)
+        outputs = self.model.encode(text_chunks)
         
         # Return the embeddings
-        return np.array(outputs.embeddings).astype('float32')
+        return np.array([output.outputs.embedding for output in outputs]).astype('float32')
     
 
 # Example usage
